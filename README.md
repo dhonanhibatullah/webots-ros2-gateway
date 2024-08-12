@@ -50,4 +50,12 @@ A websocket-based MQTT gateway from Webots (Windows) to ROS2 inside a WSL. This 
 
 5. In the Webots side, use ```src/webots_module/wbthandler.py``` file to your Webots controller.
 
-6. The full implementation can be seen from [this repository]().
+6. Simple implementation on ROS2 can be tried on ```example/wsl_ros2```. Please run:
+    ```bash
+    cd example
+    colcon build
+    source install/setup.bash
+    ros2 launch wbtros2_example wbtros2_example_launch.py
+    ```
+
+7. The full implementation can be seen from [this repository]().
