@@ -44,11 +44,13 @@ class WBTHandler:
 
 
     def start(self) -> None:
+        print('------[ STARTING WEBOTS <-> ROS2 GATEWAY HANDLER ]------')
         self.mqtt_client.connect(self.__mqtt_address__, self.__mqtt_port__)
         self.mqtt_client.loop_start()
 
 
 
     def stop(self) -> None:
+        print('------[ STOPPING WEBOTS <-> ROS2 GATEWAY HANDLER ]------')
         self.mqtt_client.loop_stop()
         self.mqtt_client.disconnect()
