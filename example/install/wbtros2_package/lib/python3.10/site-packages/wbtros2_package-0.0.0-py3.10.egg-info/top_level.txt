@@ -1,2 +1,0 @@
-wbtros2_package
-wbtros2_package/modules

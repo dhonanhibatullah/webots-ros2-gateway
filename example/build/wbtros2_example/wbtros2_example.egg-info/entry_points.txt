@@ -1,4 +1,0 @@
-[console_scripts]
-mqtt2ros_example = wbtros2_example.mqtt2ros_example:main
-ros2mqtt_example = wbtros2_example.ros2mqtt_example:main
-

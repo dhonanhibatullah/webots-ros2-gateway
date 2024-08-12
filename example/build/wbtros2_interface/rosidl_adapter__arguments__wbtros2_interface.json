@@ -1,6 +1,0 @@
-{
-  "package_name": "wbtros2_interface",
-  "non_idl_tuples": [
-    "/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/src/wbtros2_interface:msg/Wbtros2.msg"
-  ]
-}

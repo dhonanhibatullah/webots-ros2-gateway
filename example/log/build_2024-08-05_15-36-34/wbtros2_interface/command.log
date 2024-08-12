@@ -1,1 +1,0 @@
-Invoking command in '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/build/wbtros2_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/src/wbtros2_interface -DCMAKE_INSTALL_PREFIX=/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_interface

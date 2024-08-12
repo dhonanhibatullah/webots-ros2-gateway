@@ -1,8 +1,0 @@
-setup.py
-wbtros2_interface/__init__.py
-wbtros2_interface.egg-info/PKG-INFO
-wbtros2_interface.egg-info/SOURCES.txt
-wbtros2_interface.egg-info/dependency_links.txt
-wbtros2_interface.egg-info/top_level.txt
-wbtros2_interface/msg/__init__.py
-wbtros2_interface/msg/_wbtros2.py
