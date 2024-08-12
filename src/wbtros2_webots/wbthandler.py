@@ -5,11 +5,11 @@ from typing import Callable, Any
 
 class WBTHandler:
 
-    def __init__(self, topic_to_sub:list, subscribe_callback:Callable[[Any, Any, Any], None]) -> None:
+    def __init__(self, topic_to_sub:list, subscribe_callback:Callable[[Any, Any, Any], None], address:str) -> None:
         self.__mqtt_protocol__  = mqtt.MQTTv311
         self.__mqtt_transport__ = 'websockets'
         self.__mqtt_ws_path__   = '/mqtt'
-        self.__mqtt_address__   = 'localhost'
+        self.__mqtt_address__   = address
         self.__mqtt_port__      = 9001
         self.__topic_to_sub__   = topic_to_sub
 
@@ -30,7 +30,7 @@ class WBTHandler:
             
             for topic in self.__topic_to_sub__:
                 self.mqtt_client.subscribe(topic)
-                self.get_logger().info(f'Subscribed to {topic}!')
+                print(f'Subscribed to {topic}!')
 
         else:
             print(f'Failed to connect to "mqtt://{self.__mqtt_address__}:{self.__mqtt_port__}"')
