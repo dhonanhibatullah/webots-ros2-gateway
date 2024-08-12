@@ -1,4 +1,5 @@
 .vscode
+.log
 example/build
 example/install
 example/log
