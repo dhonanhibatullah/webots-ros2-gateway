@@ -1,0 +1,282 @@
+[0.000000] (-) TimerEvent: {}
+[0.001215] (wbtros2_example) JobQueued: {'identifier': 'wbtros2_example', 'dependencies': OrderedDict()}
+[0.001335] (wbtros2_interface) JobQueued: {'identifier': 'wbtros2_interface', 'dependencies': OrderedDict()}
+[0.001388] (wbtros2_package) JobQueued: {'identifier': 'wbtros2_package', 'dependencies': OrderedDict()}
+[0.001438] (wbtros2_example) JobStarted: {'identifier': 'wbtros2_example'}
+[0.100220] (-) TimerEvent: {}
+[0.176483] (wbtros2_interface) JobStarted: {'identifier': 'wbtros2_interface'}
+[0.200998] (-) TimerEvent: {}
+[0.249127] (wbtros2_package) JobStarted: {'identifier': 'wbtros2_package'}
+[0.301487] (-) TimerEvent: {}
+[0.402386] (-) TimerEvent: {}
+[0.502806] (-) TimerEvent: {}
+[0.603209] (-) TimerEvent: {}
+[0.704217] (-) TimerEvent: {}
+[0.726263] (wbtros2_interface) JobProgress: {'identifier': 'wbtros2_interface', 'progress': 'cmake'}
+[0.727317] (wbtros2_interface) Command: {'cmd': ['/usr/bin/cmake', '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/src/wbtros2_interface', '-DCMAKE_INSTALL_PREFIX=/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_interface'], 'cwd': '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/build/wbtros2_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dhonan'), ('GIT_ASKPASS', '/home/dhonan/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dhonan'), ('OLDPWD', '/home/dhonan/Workspace/webots-ros2-gateway'), ('TERM_PROGRAM_VERSION', '1.91.1'), ('NVM_BIN', '/home/dhonan/.nvm/versions/node/v21.7.1/bin'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-3d9f6fd6-ebe3-4bfa-a940-a36f1ca531f2.sock'), ('NVM_INC', '/home/dhonan/.nvm/versions/node/v21.7.1/include/node'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/dhonan/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/dhonan/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('NVM_DIR', '/home/dhonan/.nvm'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dhonan'), ('NAME', 'DHONAN-DESKTOP'), ('WSL_INTEROP', '/run/WSL/752_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/home/dhonan/.local/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/dhonan/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/bin/remote-cli:/home/dhonan/.local/bin:/opt/ros/humble/bin:/home/dhonan/.nvm/versions/node/v21.7.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Program Files/MATLAB/R2022a/runtime/win64:/mnt/c/Program Files/MATLAB/R2022a/bin:/mnt/c/Program Files (x86)/texlive/2023/bin/windows:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/ffmpeg-7.0-essentials_build/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Users/dhonan/AppData/Local/activestate/cache/bin:/mnt/c/Users/dhonan/AppData/Local/ActiveState/StateTool/release/bin:/mnt/c/Users/dhonan/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/dhonan/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/dhonan/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/dhonan/AppData/Local/Programs/MiKTeX/miktex/bin/x64/:/mnt/c/tools/TinyTeX/bin/win32:/mnt/c/Program Files/ffmpeg-7.0-essentials_build/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-41ffab9dd5.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/build/wbtros2_interface'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.804431] (-) TimerEvent: {}
+[0.904994] (-) TimerEvent: {}
+[1.005478] (-) TimerEvent: {}
+[1.029112] (wbtros2_interface) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.105973] (-) TimerEvent: {}
+[1.207654] (-) TimerEvent: {}
+[1.308175] (-) TimerEvent: {}
+[1.408667] (-) TimerEvent: {}
+[1.509128] (-) TimerEvent: {}
+[1.609544] (-) TimerEvent: {}
+[1.710010] (-) TimerEvent: {}
+[1.775372] (wbtros2_package) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/wbtros2_package', 'build', '--build-base', '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/build/wbtros2_package/build', 'install', '--record', '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/build/wbtros2_package/install.log', '--single-version-externally-managed'], 'cwd': '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/src/wbtros2_package', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'dhonan', 'GIT_ASKPASS': '/home/dhonan/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/dhonan', 'OLDPWD': '/home/dhonan/Workspace/webots-ros2-gateway', 'TERM_PROGRAM_VERSION': '1.91.1', 'NVM_BIN': '/home/dhonan/.nvm/versions/node/v21.7.1/bin', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-3d9f6fd6-ebe3-4bfa-a940-a36f1ca531f2.sock', 'NVM_INC': '/home/dhonan/.nvm/versions/node/v21.7.1/include/node', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/dhonan/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/dhonan/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'NVM_DIR': '/home/dhonan/.nvm', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'dhonan', 'NAME': 'DHONAN-DESKTOP', 'WSL_INTEROP': '/run/WSL/752_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/home/dhonan/.local/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/dhonan/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/bin/remote-cli:/home/dhonan/.local/bin:/opt/ros/humble/bin:/home/dhonan/.nvm/versions/node/v21.7.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Program Files/MATLAB/R2022a/runtime/win64:/mnt/c/Program Files/MATLAB/R2022a/bin:/mnt/c/Program Files (x86)/texlive/2023/bin/windows:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/ffmpeg-7.0-essentials_build/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Users/dhonan/AppData/Local/activestate/cache/bin:/mnt/c/Users/dhonan/AppData/Local/ActiveState/StateTool/release/bin:/mnt/c/Users/dhonan/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/dhonan/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/dhonan/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/dhonan/AppData/Local/Programs/MiKTeX/miktex/bin/x64/:/mnt/c/tools/TinyTeX/bin/win32:/mnt/c/Program Files/ffmpeg-7.0-essentials_build/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-41ffab9dd5.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/build/wbtros2_package', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/build/wbtros2_package/prefix_override:/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}, 'shell': False}
+[1.810182] (-) TimerEvent: {}
+[1.849207] (wbtros2_example) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/wbtros2_example', 'build', '--build-base', '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/build/wbtros2_example/build', 'install', '--record', '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/build/wbtros2_example/install.log', '--single-version-externally-managed'], 'cwd': '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/src/wbtros2_example', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'dhonan', 'GIT_ASKPASS': '/home/dhonan/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/dhonan', 'OLDPWD': '/home/dhonan/Workspace/webots-ros2-gateway', 'TERM_PROGRAM_VERSION': '1.91.1', 'NVM_BIN': '/home/dhonan/.nvm/versions/node/v21.7.1/bin', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-3d9f6fd6-ebe3-4bfa-a940-a36f1ca531f2.sock', 'NVM_INC': '/home/dhonan/.nvm/versions/node/v21.7.1/include/node', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/dhonan/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/dhonan/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'NVM_DIR': '/home/dhonan/.nvm', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'dhonan', 'NAME': 'DHONAN-DESKTOP', 'WSL_INTEROP': '/run/WSL/752_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/home/dhonan/.local/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/dhonan/.vscode-server/bin/f1e16e1e6214d7c44d078b1f0607b2388f29d729/bin/remote-cli:/home/dhonan/.local/bin:/opt/ros/humble/bin:/home/dhonan/.nvm/versions/node/v21.7.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Program Files/MATLAB/R2022a/runtime/win64:/mnt/c/Program Files/MATLAB/R2022a/bin:/mnt/c/Program Files (x86)/texlive/2023/bin/windows:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/ffmpeg-7.0-essentials_build/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Users/dhonan/AppData/Local/activestate/cache/bin:/mnt/c/Users/dhonan/AppData/Local/ActiveState/StateTool/release/bin:/mnt/c/Users/dhonan/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/dhonan/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/dhonan/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/dhonan/AppData/Local/Programs/MiKTeX/miktex/bin/x64/:/mnt/c/tools/TinyTeX/bin/win32:/mnt/c/Program Files/ffmpeg-7.0-essentials_build/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-41ffab9dd5.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/build/wbtros2_example', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/build/wbtros2_example/prefix_override:/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_example/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}, 'shell': False}
+[1.881911] (wbtros2_interface) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.910318] (-) TimerEvent: {}
+[2.010816] (-) TimerEvent: {}
+[2.111189] (-) TimerEvent: {}
+[2.160905] (wbtros2_package) StdoutLine: {'line': b'running egg_info\n'}
+[2.162696] (wbtros2_package) StdoutLine: {'line': b'creating ../../build/wbtros2_package/wbtros2_package.egg-info\n'}
+[2.163435] (wbtros2_package) StdoutLine: {'line': b'writing ../../build/wbtros2_package/wbtros2_package.egg-info/PKG-INFO\n'}
+[2.163836] (wbtros2_package) StdoutLine: {'line': b'writing dependency_links to ../../build/wbtros2_package/wbtros2_package.egg-info/dependency_links.txt\n'}
+[2.164247] (wbtros2_package) StdoutLine: {'line': b'writing entry points to ../../build/wbtros2_package/wbtros2_package.egg-info/entry_points.txt\n'}
+[2.164637] (wbtros2_package) StdoutLine: {'line': b'writing requirements to ../../build/wbtros2_package/wbtros2_package.egg-info/requires.txt\n'}
+[2.164843] (wbtros2_package) StdoutLine: {'line': b'writing top-level names to ../../build/wbtros2_package/wbtros2_package.egg-info/top_level.txt\n'}
+[2.165174] (wbtros2_package) StdoutLine: {'line': b"writing manifest file '../../build/wbtros2_package/wbtros2_package.egg-info/SOURCES.txt'\n"}
+[2.168604] (wbtros2_package) StdoutLine: {'line': b"reading manifest file '../../build/wbtros2_package/wbtros2_package.egg-info/SOURCES.txt'\n"}
+[2.170388] (wbtros2_package) StdoutLine: {'line': b"writing manifest file '../../build/wbtros2_package/wbtros2_package.egg-info/SOURCES.txt'\n"}
+[2.170952] (wbtros2_package) StdoutLine: {'line': b'running build\n'}
+[2.171346] (wbtros2_package) StdoutLine: {'line': b'running build_py\n'}
+[2.171615] (wbtros2_package) StdoutLine: {'line': b'creating /home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/build/wbtros2_package/build\n'}
+[2.172062] (wbtros2_package) StdoutLine: {'line': b'creating /home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/build/wbtros2_package/build/lib\n'}
+[2.172438] (wbtros2_package) StdoutLine: {'line': b'creating /home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/build/wbtros2_package/build/lib/wbtros2_package\n'}
+[2.173043] (wbtros2_package) StdoutLine: {'line': b'copying wbtros2_package/wbtros2_ros2handler.py -> /home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/build/wbtros2_package/build/lib/wbtros2_package\n'}
+[2.173341] (wbtros2_package) StdoutLine: {'line': b'copying wbtros2_package/__init__.py -> /home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/build/wbtros2_package/build/lib/wbtros2_package\n'}
+[2.173568] (wbtros2_package) StdoutLine: {'line': b'creating /home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/build/wbtros2_package/build/lib/wbtros2_package/modules\n'}
+[2.173877] (wbtros2_package) StdoutLine: {'line': b'copying wbtros2_package/modules/wbtros2_ros2handler_node.py -> /home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/build/wbtros2_package/build/lib/wbtros2_package/modules\n'}
+[2.174076] (wbtros2_package) StdoutLine: {'line': b'copying wbtros2_package/modules/__init__.py -> /home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/build/wbtros2_package/build/lib/wbtros2_package/modules\n'}
+[2.174350] (wbtros2_package) StdoutLine: {'line': b'running install\n'}
+[2.174723] (wbtros2_package) StdoutLine: {'line': b'running install_lib\n'}
+[2.175993] (wbtros2_package) StdoutLine: {'line': b'creating /home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_package/lib/python3.10/site-packages/wbtros2_package\n'}
+[2.176558] (wbtros2_package) StdoutLine: {'line': b'copying /home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/build/wbtros2_package/build/lib/wbtros2_package/wbtros2_ros2handler.py -> /home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_package/lib/python3.10/site-packages/wbtros2_package\n'}
+[2.176979] (wbtros2_package) StdoutLine: {'line': b'creating /home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_package/lib/python3.10/site-packages/wbtros2_package/modules\n'}
+[2.177476] (wbtros2_package) StdoutLine: {'line': b'copying /home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/build/wbtros2_package/build/lib/wbtros2_package/modules/wbtros2_ros2handler_node.py -> /home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_package/lib/python3.10/site-packages/wbtros2_package/modules\n'}
+[2.177831] (wbtros2_package) StdoutLine: {'line': b'copying /home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/build/wbtros2_package/build/lib/wbtros2_package/modules/__init__.py -> /home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_package/lib/python3.10/site-packages/wbtros2_package/modules\n'}
+[2.178290] (wbtros2_package) StdoutLine: {'line': b'copying /home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/build/wbtros2_package/build/lib/wbtros2_package/__init__.py -> /home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_package/lib/python3.10/site-packages/wbtros2_package\n'}
+[2.178848] (wbtros2_package) StdoutLine: {'line': b'byte-compiling /home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_package/lib/python3.10/site-packages/wbtros2_package/wbtros2_ros2handler.py to wbtros2_ros2handler.cpython-310.pyc\n'}
+[2.179817] (wbtros2_package) StdoutLine: {'line': b'byte-compiling /home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_package/lib/python3.10/site-packages/wbtros2_package/modules/wbtros2_ros2handler_node.py to wbtros2_ros2handler_node.cpython-310.pyc\n'}
+[2.181370] (wbtros2_package) StdoutLine: {'line': b'byte-compiling /home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_package/lib/python3.10/site-packages/wbtros2_package/modules/__init__.py to __init__.cpython-310.pyc\n'}
+[2.181991] (wbtros2_package) StdoutLine: {'line': b'byte-compiling /home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_package/lib/python3.10/site-packages/wbtros2_package/__init__.py to __init__.cpython-310.pyc\n'}
+[2.182299] (wbtros2_package) StdoutLine: {'line': b'running install_data\n'}
+[2.183167] (wbtros2_package) StdoutLine: {'line': b'creating /home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_package/share/ament_index\n'}
+[2.183953] (wbtros2_package) StdoutLine: {'line': b'creating /home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_package/share/ament_index/resource_index\n'}
+[2.184389] (wbtros2_package) StdoutLine: {'line': b'creating /home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_package/share/ament_index/resource_index/packages\n'}
+[2.184783] (wbtros2_package) StdoutLine: {'line': b'copying resource/wbtros2_package -> /home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_package/share/ament_index/resource_index/packages\n'}
+[2.185160] (wbtros2_package) StdoutLine: {'line': b'copying package.xml -> /home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_package/share/wbtros2_package\n'}
+[2.185523] (wbtros2_package) StdoutLine: {'line': b'copying launch/wbtros2_ros2handler_launch.py -> /home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_package/share/wbtros2_package\n'}
+[2.185981] (wbtros2_package) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.188716] (wbtros2_package) StdoutLine: {'line': b'Copying ../../build/wbtros2_package/wbtros2_package.egg-info to /home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_package/lib/python3.10/site-packages/wbtros2_package-0.0.0-py3.10.egg-info\n'}
+[2.190501] (wbtros2_package) StdoutLine: {'line': b'running install_scripts\n'}
+[2.211422] (-) TimerEvent: {}
+[2.222673] (wbtros2_package) StdoutLine: {'line': b'Installing wbtros2_ros2handler script to /home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_package/lib/wbtros2_package\n'}
+[2.223781] (wbtros2_package) StdoutLine: {'line': b"writing list of installed files to '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/build/wbtros2_package/install.log'\n"}
+[2.275491] (wbtros2_package) CommandEnded: {'returncode': 0}
+[2.312829] (-) TimerEvent: {}
+[2.359904] (wbtros2_example) StdoutLine: {'line': b'running egg_info\n'}
+[2.361624] (wbtros2_example) StdoutLine: {'line': b'creating ../../build/wbtros2_example/wbtros2_example.egg-info\n'}
+[2.362231] (wbtros2_example) StdoutLine: {'line': b'writing ../../build/wbtros2_example/wbtros2_example.egg-info/PKG-INFO\n'}
+[2.362990] (wbtros2_example) StdoutLine: {'line': b'writing dependency_links to ../../build/wbtros2_example/wbtros2_example.egg-info/dependency_links.txt\n'}
+[2.363322] (wbtros2_example) StdoutLine: {'line': b'writing entry points to ../../build/wbtros2_example/wbtros2_example.egg-info/entry_points.txt\n'}
+[2.363614] (wbtros2_example) StdoutLine: {'line': b'writing requirements to ../../build/wbtros2_example/wbtros2_example.egg-info/requires.txt\n'}
+[2.363912] (wbtros2_example) StdoutLine: {'line': b'writing top-level names to ../../build/wbtros2_example/wbtros2_example.egg-info/top_level.txt\n'}
+[2.365442] (wbtros2_example) StdoutLine: {'line': b"writing manifest file '../../build/wbtros2_example/wbtros2_example.egg-info/SOURCES.txt'\n"}
+[2.366098] (wbtros2_example) StderrLine: {'line': b"error: package directory 'wbtros2_example/modules' does not exist\n"}
+[2.400349] (wbtros2_package) JobEnded: {'identifier': 'wbtros2_package', 'rc': 0}
+[2.402142] (wbtros2_example) CommandEnded: {'returncode': 1}
+[2.402536] (wbtros2_example) JobEnded: {'identifier': 'wbtros2_example', 'rc': 1}
+[2.412960] (-) TimerEvent: {}
+[2.489323] (wbtros2_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.513154] (-) TimerEvent: {}
+[2.613604] (-) TimerEvent: {}
+[2.714124] (wbtros2_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.714277] (-) TimerEvent: {}
+[2.722444] (wbtros2_interface) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.724078] (wbtros2_interface) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.725653] (wbtros2_interface) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.731647] (wbtros2_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.814512] (-) TimerEvent: {}
+[2.915001] (-) TimerEvent: {}
+[2.976257] (wbtros2_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.984679] (wbtros2_interface) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.985124] (wbtros2_interface) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.985672] (wbtros2_interface) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.015313] (-) TimerEvent: {}
+[3.021591] (wbtros2_interface) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.115459] (-) TimerEvent: {}
+[3.198324] (wbtros2_interface) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.215671] (-) TimerEvent: {}
+[3.316157] (-) TimerEvent: {}
+[3.344315] (wbtros2_interface) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[3.416453] (-) TimerEvent: {}
+[3.516951] (-) TimerEvent: {}
+[3.617919] (-) TimerEvent: {}
+[3.664775] (wbtros2_interface) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.675191] (wbtros2_interface) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.693544] (wbtros2_interface) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.718138] (-) TimerEvent: {}
+[3.723621] (wbtros2_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.760248] (wbtros2_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.818342] (-) TimerEvent: {}
+[3.880966] (wbtros2_interface) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.887355] (wbtros2_interface) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.918621] (-) TimerEvent: {}
+[4.019094] (-) TimerEvent: {}
+[4.119633] (-) TimerEvent: {}
+[4.220025] (-) TimerEvent: {}
+[4.320407] (-) TimerEvent: {}
+[4.420879] (-) TimerEvent: {}
+[4.521287] (-) TimerEvent: {}
+[4.621782] (-) TimerEvent: {}
+[4.722264] (-) TimerEvent: {}
+[4.822864] (-) TimerEvent: {}
+[4.923347] (-) TimerEvent: {}
+[5.023879] (-) TimerEvent: {}
+[5.124534] (-) TimerEvent: {}
+[5.225189] (-) TimerEvent: {}
+[5.325698] (-) TimerEvent: {}
+[5.426347] (-) TimerEvent: {}
+[5.526855] (-) TimerEvent: {}
+[5.627460] (-) TimerEvent: {}
+[5.728109] (-) TimerEvent: {}
+[5.828808] (-) TimerEvent: {}
+[5.929477] (-) TimerEvent: {}
+[6.029979] (-) TimerEvent: {}
+[6.130634] (-) TimerEvent: {}
+[6.231213] (-) TimerEvent: {}
+[6.320171] (wbtros2_interface) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[6.331498] (-) TimerEvent: {}
+[6.432097] (-) TimerEvent: {}
+[6.532733] (-) TimerEvent: {}
+[6.633275] (-) TimerEvent: {}
+[6.733703] (-) TimerEvent: {}
+[6.834144] (-) TimerEvent: {}
+[6.934640] (-) TimerEvent: {}
+[7.035062] (-) TimerEvent: {}
+[7.135465] (-) TimerEvent: {}
+[7.235978] (-) TimerEvent: {}
+[7.336564] (-) TimerEvent: {}
+[7.437121] (-) TimerEvent: {}
+[7.537659] (-) TimerEvent: {}
+[7.638332] (-) TimerEvent: {}
+[7.739004] (-) TimerEvent: {}
+[7.839509] (-) TimerEvent: {}
+[7.940037] (-) TimerEvent: {}
+[8.040568] (-) TimerEvent: {}
+[8.141156] (-) TimerEvent: {}
+[8.241603] (-) TimerEvent: {}
+[8.342091] (-) TimerEvent: {}
+[8.442454] (-) TimerEvent: {}
+[8.542883] (-) TimerEvent: {}
+[8.643356] (-) TimerEvent: {}
+[8.743898] (-) TimerEvent: {}
+[8.819261] (wbtros2_interface) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[8.844033] (-) TimerEvent: {}
+[8.944552] (-) TimerEvent: {}
+[9.044977] (-) TimerEvent: {}
+[9.145420] (-) TimerEvent: {}
+[9.245895] (-) TimerEvent: {}
+[9.346367] (-) TimerEvent: {}
+[9.446855] (-) TimerEvent: {}
+[9.547507] (-) TimerEvent: {}
+[9.648164] (-) TimerEvent: {}
+[9.749422] (-) TimerEvent: {}
+[9.850344] (-) TimerEvent: {}
+[9.950863] (-) TimerEvent: {}
+[10.051325] (-) TimerEvent: {}
+[10.151688] (-) TimerEvent: {}
+[10.252177] (-) TimerEvent: {}
+[10.352585] (-) TimerEvent: {}
+[10.453077] (-) TimerEvent: {}
+[10.553559] (-) TimerEvent: {}
+[10.654152] (-) TimerEvent: {}
+[10.754702] (-) TimerEvent: {}
+[10.855247] (-) TimerEvent: {}
+[10.955661] (-) TimerEvent: {}
+[11.056104] (-) TimerEvent: {}
+[11.156471] (-) TimerEvent: {}
+[11.256901] (-) TimerEvent: {}
+[11.357410] (-) TimerEvent: {}
+[11.457919] (-) TimerEvent: {}
+[11.558713] (-) TimerEvent: {}
+[11.659207] (-) TimerEvent: {}
+[11.759775] (-) TimerEvent: {}
+[11.860411] (-) TimerEvent: {}
+[11.960946] (-) TimerEvent: {}
+[12.061635] (-) TimerEvent: {}
+[12.162243] (-) TimerEvent: {}
+[12.262772] (-) TimerEvent: {}
+[12.363542] (-) TimerEvent: {}
+[12.464195] (-) TimerEvent: {}
+[12.564878] (-) TimerEvent: {}
+[12.665456] (-) TimerEvent: {}
+[12.765892] (-) TimerEvent: {}
+[12.866427] (-) TimerEvent: {}
+[12.966860] (-) TimerEvent: {}
+[13.067333] (-) TimerEvent: {}
+[13.167859] (-) TimerEvent: {}
+[13.268259] (-) TimerEvent: {}
+[13.368644] (-) TimerEvent: {}
+[13.469018] (-) TimerEvent: {}
+[13.569450] (-) TimerEvent: {}
+[13.669973] (-) TimerEvent: {}
+[13.676199] (wbtros2_interface) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[13.693711] (wbtros2_interface) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[13.770212] (-) TimerEvent: {}
+[13.870637] (-) TimerEvent: {}
+[13.941747] (wbtros2_interface) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[13.942445] (wbtros2_interface) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[13.970773] (-) TimerEvent: {}
+[14.071178] (-) TimerEvent: {}
+[14.171636] (-) TimerEvent: {}
+[14.180991] (wbtros2_interface) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[14.183374] (wbtros2_interface) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[14.271862] (-) TimerEvent: {}
+[14.372334] (-) TimerEvent: {}
+[14.452711] (wbtros2_interface) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[14.472535] (-) TimerEvent: {}
+[14.572967] (-) TimerEvent: {}
+[14.673342] (-) TimerEvent: {}
+[14.773782] (-) TimerEvent: {}
+[14.776852] (wbtros2_interface) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[14.873946] (-) TimerEvent: {}
+[14.974419] (-) TimerEvent: {}
+[15.074861] (-) TimerEvent: {}
+[15.153120] (wbtros2_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[15.175129] (-) TimerEvent: {}
+[15.275582] (-) TimerEvent: {}
+[15.309319] (wbtros2_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[15.375736] (-) TimerEvent: {}
+[15.476297] (-) TimerEvent: {}
+[15.571887] (wbtros2_interface) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[15.575292] (wbtros2_interface) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[15.576464] (-) TimerEvent: {}
+[15.677093] (-) TimerEvent: {}
+[15.777563] (-) TimerEvent: {}
+[15.878042] (-) TimerEvent: {}
+[15.978488] (-) TimerEvent: {}
+[16.078920] (-) TimerEvent: {}
+[16.179514] (-) TimerEvent: {}
+[16.279951] (-) TimerEvent: {}
+[16.350988] (wbtros2_interface) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[16.351332] (wbtros2_interface) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[16.351525] (wbtros2_interface) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[16.351765] (wbtros2_interface) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[16.380159] (-) TimerEvent: {}
+[16.383917] (wbtros2_interface) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[16.480535] (-) TimerEvent: {}
+[16.504669] (wbtros2_interface) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[16.545227] (wbtros2_interface) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[16.548436] (wbtros2_interface) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[16.554255] (wbtros2_interface) StdoutLine: {'line': b'-- Configuring done\n'}
+[16.580619] (-) TimerEvent: {}
+[16.618560] (wbtros2_interface) StdoutLine: {'line': b'-- Generating done\n'}
+[16.623529] (wbtros2_interface) StdoutLine: {'line': b'-- Build files have been written to: /home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/build/wbtros2_interface\n'}
+[16.641352] (wbtros2_interface) JobEnded: {'identifier': 'wbtros2_interface', 'rc': 'SIGINT'}
+[16.652240] (-) EventReactorShutdown: {}

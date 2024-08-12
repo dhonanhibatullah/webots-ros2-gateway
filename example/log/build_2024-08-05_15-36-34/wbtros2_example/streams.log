@@ -1,0 +1,11 @@
+[1.851s] Invoking command in '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/src/wbtros2_example': PYTHONPATH=/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/build/wbtros2_example/prefix_override:/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/wbtros2_example build --build-base /home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/build/wbtros2_example/build install --record /home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/build/wbtros2_example/install.log --single-version-externally-managed
+[2.360s] running egg_info
+[2.361s] creating ../../build/wbtros2_example/wbtros2_example.egg-info
+[2.361s] writing ../../build/wbtros2_example/wbtros2_example.egg-info/PKG-INFO
+[2.362s] writing dependency_links to ../../build/wbtros2_example/wbtros2_example.egg-info/dependency_links.txt
+[2.362s] writing entry points to ../../build/wbtros2_example/wbtros2_example.egg-info/entry_points.txt
+[2.362s] writing requirements to ../../build/wbtros2_example/wbtros2_example.egg-info/requires.txt
+[2.364s] writing top-level names to ../../build/wbtros2_example/wbtros2_example.egg-info/top_level.txt
+[2.364s] writing manifest file '../../build/wbtros2_example/wbtros2_example.egg-info/SOURCES.txt'
+[2.365s] error: package directory 'wbtros2_example/modules' does not exist
+[2.401s] Invoked command in '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/src/wbtros2_example' returned '1': PYTHONPATH=/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/build/wbtros2_example/prefix_override:/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/wbtros2_example build --build-base /home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/build/wbtros2_example/build install --record /home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/build/wbtros2_example/install.log --single-version-externally-managed

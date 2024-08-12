@@ -1,0 +1,250 @@
+[2.122s] DEBUG:colcon:Command line arguments: ['/home/dhonan/.local/bin/colcon', 'build']
+[2.122s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f8b739219c0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f8b7391e590>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f8b7391e590>>, mixin_verb=('build',))
+[2.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.196s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2'
+[2.196s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.196s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.196s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.196s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.226s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.226s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.226s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.226s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.226s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.226s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.227s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.227s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.227s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.227s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.227s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.227s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.228s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.228s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.228s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.228s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.228s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.228s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.228s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.228s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.229s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.229s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.229s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.229s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.229s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/wbtros2_example) by extensions ['ignore', 'ignore_ament_install']
+[2.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/wbtros2_example) by extension 'ignore'
+[2.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/wbtros2_example) by extension 'ignore_ament_install'
+[2.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/wbtros2_example) by extensions ['colcon_pkg']
+[2.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/wbtros2_example) by extension 'colcon_pkg'
+[2.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/wbtros2_example) by extensions ['colcon_meta']
+[2.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/wbtros2_example) by extension 'colcon_meta'
+[2.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/wbtros2_example) by extensions ['ros']
+[2.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/wbtros2_example) by extension 'ros'
+[2.234s] DEBUG:colcon.colcon_core.package_identification:Package 'src/wbtros2_example' with type 'ros.ament_python' and name 'wbtros2_example'
+[2.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/wbtros2_interface) by extensions ['ignore', 'ignore_ament_install']
+[2.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/wbtros2_interface) by extension 'ignore'
+[2.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/wbtros2_interface) by extension 'ignore_ament_install'
+[2.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/wbtros2_interface) by extensions ['colcon_pkg']
+[2.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/wbtros2_interface) by extension 'colcon_pkg'
+[2.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/wbtros2_interface) by extensions ['colcon_meta']
+[2.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/wbtros2_interface) by extension 'colcon_meta'
+[2.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/wbtros2_interface) by extensions ['ros']
+[2.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/wbtros2_interface) by extension 'ros'
+[2.238s] DEBUG:colcon.colcon_core.package_identification:Package 'src/wbtros2_interface' with type 'ros.ament_cmake' and name 'wbtros2_interface'
+[2.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/wbtros2_package) by extensions ['ignore', 'ignore_ament_install']
+[2.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/wbtros2_package) by extension 'ignore'
+[2.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/wbtros2_package) by extension 'ignore_ament_install'
+[2.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/wbtros2_package) by extensions ['colcon_pkg']
+[2.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/wbtros2_package) by extension 'colcon_pkg'
+[2.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/wbtros2_package) by extensions ['colcon_meta']
+[2.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/wbtros2_package) by extension 'colcon_meta'
+[2.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/wbtros2_package) by extensions ['ros']
+[2.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/wbtros2_package) by extension 'ros'
+[2.240s] DEBUG:colcon.colcon_core.package_identification:Package 'src/wbtros2_package' with type 'ros.ament_python' and name 'wbtros2_package'
+[2.240s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.240s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.240s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.240s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.240s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.384s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.384s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.441s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install
+[2.468s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 271 installed packages in /opt/ros/humble
+[2.470s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.558s] Level 5:colcon.colcon_core.verb:set package 'wbtros2_example' build argument 'cmake_args' from command line to 'None'
+[2.558s] Level 5:colcon.colcon_core.verb:set package 'wbtros2_example' build argument 'cmake_target' from command line to 'None'
+[2.558s] Level 5:colcon.colcon_core.verb:set package 'wbtros2_example' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.558s] Level 5:colcon.colcon_core.verb:set package 'wbtros2_example' build argument 'cmake_clean_cache' from command line to 'False'
+[2.558s] Level 5:colcon.colcon_core.verb:set package 'wbtros2_example' build argument 'cmake_clean_first' from command line to 'False'
+[2.558s] Level 5:colcon.colcon_core.verb:set package 'wbtros2_example' build argument 'cmake_force_configure' from command line to 'False'
+[2.558s] Level 5:colcon.colcon_core.verb:set package 'wbtros2_example' build argument 'ament_cmake_args' from command line to 'None'
+[2.558s] Level 5:colcon.colcon_core.verb:set package 'wbtros2_example' build argument 'catkin_cmake_args' from command line to 'None'
+[2.558s] Level 5:colcon.colcon_core.verb:set package 'wbtros2_example' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.558s] DEBUG:colcon.colcon_core.verb:Building package 'wbtros2_example' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/build/wbtros2_example', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_example', 'merge_install': False, 'path': '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/src/wbtros2_example', 'symlink_install': False, 'test_result_base': None}
+[2.579s] Level 5:colcon.colcon_core.verb:set package 'wbtros2_interface' build argument 'cmake_args' from command line to 'None'
+[2.579s] Level 5:colcon.colcon_core.verb:set package 'wbtros2_interface' build argument 'cmake_target' from command line to 'None'
+[2.579s] Level 5:colcon.colcon_core.verb:set package 'wbtros2_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.579s] Level 5:colcon.colcon_core.verb:set package 'wbtros2_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[2.579s] Level 5:colcon.colcon_core.verb:set package 'wbtros2_interface' build argument 'cmake_clean_first' from command line to 'False'
+[2.579s] Level 5:colcon.colcon_core.verb:set package 'wbtros2_interface' build argument 'cmake_force_configure' from command line to 'False'
+[2.579s] Level 5:colcon.colcon_core.verb:set package 'wbtros2_interface' build argument 'ament_cmake_args' from command line to 'None'
+[2.579s] Level 5:colcon.colcon_core.verb:set package 'wbtros2_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[2.579s] Level 5:colcon.colcon_core.verb:set package 'wbtros2_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.579s] DEBUG:colcon.colcon_core.verb:Building package 'wbtros2_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/build/wbtros2_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_interface', 'merge_install': False, 'path': '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/src/wbtros2_interface', 'symlink_install': False, 'test_result_base': None}
+[2.600s] Level 5:colcon.colcon_core.verb:set package 'wbtros2_package' build argument 'cmake_args' from command line to 'None'
+[2.600s] Level 5:colcon.colcon_core.verb:set package 'wbtros2_package' build argument 'cmake_target' from command line to 'None'
+[2.600s] Level 5:colcon.colcon_core.verb:set package 'wbtros2_package' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.600s] Level 5:colcon.colcon_core.verb:set package 'wbtros2_package' build argument 'cmake_clean_cache' from command line to 'False'
+[2.600s] Level 5:colcon.colcon_core.verb:set package 'wbtros2_package' build argument 'cmake_clean_first' from command line to 'False'
+[2.600s] Level 5:colcon.colcon_core.verb:set package 'wbtros2_package' build argument 'cmake_force_configure' from command line to 'False'
+[2.600s] Level 5:colcon.colcon_core.verb:set package 'wbtros2_package' build argument 'ament_cmake_args' from command line to 'None'
+[2.600s] Level 5:colcon.colcon_core.verb:set package 'wbtros2_package' build argument 'catkin_cmake_args' from command line to 'None'
+[2.600s] Level 5:colcon.colcon_core.verb:set package 'wbtros2_package' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.600s] DEBUG:colcon.colcon_core.verb:Building package 'wbtros2_package' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/build/wbtros2_package', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_package', 'merge_install': False, 'path': '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/src/wbtros2_package', 'symlink_install': False, 'test_result_base': None}
+[2.620s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.640s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.641s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/src/wbtros2_example' with build type 'ament_python'
+[2.641s] Level 1:colcon.colcon_core.shell:create_environment_hook('wbtros2_example', 'ament_prefix_path')
+[2.668s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.669s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_example/share/wbtros2_example/hook/ament_prefix_path.ps1'
+[2.670s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_example/share/wbtros2_example/hook/ament_prefix_path.dsv'
+[2.670s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_example/share/wbtros2_example/hook/ament_prefix_path.sh'
+[2.693s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.693s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.791s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/src/wbtros2_interface' with build type 'ament_cmake'
+[2.792s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/src/wbtros2_interface'
+[2.814s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.814s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.888s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/src/wbtros2_package' with build type 'ament_python'
+[2.889s] Level 1:colcon.colcon_core.shell:create_environment_hook('wbtros2_package', 'ament_prefix_path')
+[2.911s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_package/share/wbtros2_package/hook/ament_prefix_path.ps1'
+[2.912s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_package/share/wbtros2_package/hook/ament_prefix_path.dsv'
+[2.912s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_package/share/wbtros2_package/hook/ament_prefix_path.sh'
+[2.935s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.936s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.396s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/src/wbtros2_example'
+[3.416s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.417s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.511s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/build/wbtros2_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_package:/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_example:/opt/ros/humble /usr/bin/cmake --build /home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/build/wbtros2_interface -- -j8 -l8
+[3.927s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/src/wbtros2_package'
+[3.955s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.955s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.035s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/build/wbtros2_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_package:/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_example:/opt/ros/humble /usr/bin/cmake --build /home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/build/wbtros2_interface -- -j8 -l8
+[4.120s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/build/wbtros2_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_package:/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_example:/opt/ros/humble /usr/bin/cmake --install /home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/build/wbtros2_interface
+[4.201s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wbtros2_interface)
+[4.202s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/build/wbtros2_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_package:/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_example:/opt/ros/humble /usr/bin/cmake --install /home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/build/wbtros2_interface
+[4.241s] Level 1:colcon.colcon_core.environment:checking '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_interface' for CMake module files
+[4.242s] Level 1:colcon.colcon_core.environment:checking '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_interface' for CMake config files
+[4.243s] Level 1:colcon.colcon_core.shell:create_environment_hook('wbtros2_interface', 'cmake_prefix_path')
+[4.268s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_interface/share/wbtros2_interface/hook/cmake_prefix_path.ps1'
+[4.269s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_interface/share/wbtros2_interface/hook/cmake_prefix_path.dsv'
+[4.270s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_interface/share/wbtros2_interface/hook/cmake_prefix_path.sh'
+[4.271s] Level 1:colcon.colcon_core.environment:checking '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_interface/lib'
+[4.271s] Level 1:colcon.colcon_core.shell:create_environment_hook('wbtros2_interface', 'ld_library_path_lib')
+[4.293s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_interface/share/wbtros2_interface/hook/ld_library_path_lib.ps1'
+[4.293s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_interface/share/wbtros2_interface/hook/ld_library_path_lib.dsv'
+[4.293s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_interface/share/wbtros2_interface/hook/ld_library_path_lib.sh'
+[4.294s] Level 1:colcon.colcon_core.environment:checking '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_interface/bin'
+[4.294s] Level 1:colcon.colcon_core.environment:checking '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_interface/lib/pkgconfig/wbtros2_interface.pc'
+[4.294s] Level 1:colcon.colcon_core.environment:checking '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_interface/lib/python3.10/site-packages'
+[4.295s] Level 1:colcon.colcon_core.environment:checking '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_interface/bin'
+[4.316s] INFO:colcon.colcon_core.shell:Creating package script '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_interface/share/wbtros2_interface/package.ps1'
+[4.317s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_interface/share/wbtros2_interface/package.dsv'
+[4.318s] INFO:colcon.colcon_core.shell:Creating package script '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_interface/share/wbtros2_interface/package.sh'
+[4.318s] INFO:colcon.colcon_core.shell:Creating package script '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_interface/share/wbtros2_interface/package.bash'
+[4.319s] INFO:colcon.colcon_core.shell:Creating package script '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_interface/share/wbtros2_interface/package.zsh'
+[4.320s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_interface/share/colcon-core/packages/wbtros2_interface)
+[4.410s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wbtros2_interface)
+[4.443s] Level 1:colcon.colcon_core.environment:checking '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_interface' for CMake module files
+[4.443s] Level 1:colcon.colcon_core.environment:checking '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_interface' for CMake config files
+[4.444s] Level 1:colcon.colcon_core.shell:create_environment_hook('wbtros2_interface', 'cmake_prefix_path')
+[4.470s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_interface/share/wbtros2_interface/hook/cmake_prefix_path.ps1'
+[4.470s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_interface/share/wbtros2_interface/hook/cmake_prefix_path.dsv'
+[4.471s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_interface/share/wbtros2_interface/hook/cmake_prefix_path.sh'
+[4.471s] Level 1:colcon.colcon_core.environment:checking '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_interface/lib'
+[4.472s] Level 1:colcon.colcon_core.shell:create_environment_hook('wbtros2_interface', 'ld_library_path_lib')
+[4.501s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_interface/share/wbtros2_interface/hook/ld_library_path_lib.ps1'
+[4.502s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_interface/share/wbtros2_interface/hook/ld_library_path_lib.dsv'
+[4.502s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_interface/share/wbtros2_interface/hook/ld_library_path_lib.sh'
+[4.503s] Level 1:colcon.colcon_core.environment:checking '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_interface/bin'
+[4.503s] Level 1:colcon.colcon_core.environment:checking '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_interface/lib/pkgconfig/wbtros2_interface.pc'
+[4.504s] Level 1:colcon.colcon_core.environment:checking '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_interface/lib/python3.10/site-packages'
+[4.504s] Level 1:colcon.colcon_core.environment:checking '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_interface/bin'
+[4.542s] INFO:colcon.colcon_core.shell:Creating package script '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_interface/share/wbtros2_interface/package.ps1'
+[4.543s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_interface/share/wbtros2_interface/package.dsv'
+[4.545s] INFO:colcon.colcon_core.shell:Creating package script '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_interface/share/wbtros2_interface/package.sh'
+[4.546s] INFO:colcon.colcon_core.shell:Creating package script '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_interface/share/wbtros2_interface/package.bash'
+[4.546s] INFO:colcon.colcon_core.shell:Creating package script '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_interface/share/wbtros2_interface/package.zsh'
+[4.548s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_interface/share/colcon-core/packages/wbtros2_interface)
+[4.563s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/src/wbtros2_package': PYTHONPATH=/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/build/wbtros2_package/prefix_override:/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/wbtros2_package build --build-base /home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/build/wbtros2_package/build install --record /home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/build/wbtros2_package/install.log --single-version-externally-managed
+[4.600s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/src/wbtros2_example': PYTHONPATH=/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/build/wbtros2_example/prefix_override:/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/wbtros2_example build --build-base /home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/build/wbtros2_example/build install --record /home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/build/wbtros2_example/install.log --single-version-externally-managed
+[4.998s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/src/wbtros2_package' returned '0': PYTHONPATH=/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/build/wbtros2_package/prefix_override:/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/wbtros2_package build --build-base /home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/build/wbtros2_package/build install --record /home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/build/wbtros2_package/install.log --single-version-externally-managed
+[5.021s] Level 1:colcon.colcon_core.environment:checking '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_package' for CMake module files
+[5.021s] Level 1:colcon.colcon_core.environment:checking '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_package' for CMake config files
+[5.022s] Level 1:colcon.colcon_core.environment:checking '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_package/lib'
+[5.022s] Level 1:colcon.colcon_core.environment:checking '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_package/bin'
+[5.022s] Level 1:colcon.colcon_core.environment:checking '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_package/lib/pkgconfig/wbtros2_package.pc'
+[5.023s] Level 1:colcon.colcon_core.environment:checking '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_package/lib/python3.10/site-packages'
+[5.023s] Level 1:colcon.colcon_core.shell:create_environment_hook('wbtros2_package', 'pythonpath')
+[5.044s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_package/share/wbtros2_package/hook/pythonpath.ps1'
+[5.044s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_package/share/wbtros2_package/hook/pythonpath.dsv'
+[5.044s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_package/share/wbtros2_package/hook/pythonpath.sh'
+[5.045s] Level 1:colcon.colcon_core.environment:checking '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_package/bin'
+[5.045s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wbtros2_package)
+[5.069s] INFO:colcon.colcon_core.shell:Creating package script '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_package/share/wbtros2_package/package.ps1'
+[5.070s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_package/share/wbtros2_package/package.dsv'
+[5.071s] INFO:colcon.colcon_core.shell:Creating package script '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_package/share/wbtros2_package/package.sh'
+[5.072s] INFO:colcon.colcon_core.shell:Creating package script '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_package/share/wbtros2_package/package.bash'
+[5.072s] INFO:colcon.colcon_core.shell:Creating package script '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_package/share/wbtros2_package/package.zsh'
+[5.073s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_package/share/colcon-core/packages/wbtros2_package)
+[5.077s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/src/wbtros2_example' returned '0': PYTHONPATH=/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/build/wbtros2_example/prefix_override:/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/wbtros2_example build --build-base /home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/build/wbtros2_example/build install --record /home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/build/wbtros2_example/install.log --single-version-externally-managed
+[5.100s] Level 1:colcon.colcon_core.environment:checking '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_example' for CMake module files
+[5.100s] Level 1:colcon.colcon_core.environment:checking '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_example' for CMake config files
+[5.101s] Level 1:colcon.colcon_core.environment:checking '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_example/lib'
+[5.101s] Level 1:colcon.colcon_core.environment:checking '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_example/bin'
+[5.101s] Level 1:colcon.colcon_core.environment:checking '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_example/lib/pkgconfig/wbtros2_example.pc'
+[5.101s] Level 1:colcon.colcon_core.environment:checking '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_example/lib/python3.10/site-packages'
+[5.101s] Level 1:colcon.colcon_core.shell:create_environment_hook('wbtros2_example', 'pythonpath')
+[5.124s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_example/share/wbtros2_example/hook/pythonpath.ps1'
+[5.125s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_example/share/wbtros2_example/hook/pythonpath.dsv'
+[5.125s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_example/share/wbtros2_example/hook/pythonpath.sh'
+[5.126s] Level 1:colcon.colcon_core.environment:checking '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_example/bin'
+[5.126s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wbtros2_example)
+[5.149s] INFO:colcon.colcon_core.shell:Creating package script '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_example/share/wbtros2_example/package.ps1'
+[5.150s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_example/share/wbtros2_example/package.dsv'
+[5.150s] INFO:colcon.colcon_core.shell:Creating package script '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_example/share/wbtros2_example/package.sh'
+[5.151s] INFO:colcon.colcon_core.shell:Creating package script '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_example/share/wbtros2_example/package.bash'
+[5.151s] INFO:colcon.colcon_core.shell:Creating package script '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_example/share/wbtros2_example/package.zsh'
+[5.152s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_example/share/colcon-core/packages/wbtros2_example)
+[5.153s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.154s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.154s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.154s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.187s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.187s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.187s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.189s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[5.189s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.222s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/local_setup.ps1'
+[5.223s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/_local_setup_util_ps1.py'
+[5.224s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/setup.ps1'
+[5.245s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/local_setup.sh'
+[5.246s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/_local_setup_util_sh.py'
+[5.247s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/setup.sh'
+[5.267s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/local_setup.bash'
+[5.268s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/setup.bash'
+[5.289s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/local_setup.zsh'
+[5.290s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/setup.zsh'

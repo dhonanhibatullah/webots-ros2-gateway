@@ -1,0 +1,26 @@
+running egg_info
+writing ../../build/wbtros2_example/wbtros2_example.egg-info/PKG-INFO
+writing dependency_links to ../../build/wbtros2_example/wbtros2_example.egg-info/dependency_links.txt
+writing entry points to ../../build/wbtros2_example/wbtros2_example.egg-info/entry_points.txt
+writing requirements to ../../build/wbtros2_example/wbtros2_example.egg-info/requires.txt
+writing top-level names to ../../build/wbtros2_example/wbtros2_example.egg-info/top_level.txt
+reading manifest file '../../build/wbtros2_example/wbtros2_example.egg-info/SOURCES.txt'
+writing manifest file '../../build/wbtros2_example/wbtros2_example.egg-info/SOURCES.txt'
+running build
+running build_py
+copying wbtros2_example/mqtt2ros_example.py -> /home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/build/wbtros2_example/build/lib/wbtros2_example
+copying wbtros2_example/modules/mqtt2ros_example_node.py -> /home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/build/wbtros2_example/build/lib/wbtros2_example/modules
+running install
+running install_lib
+copying /home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/build/wbtros2_example/build/lib/wbtros2_example/mqtt2ros_example.py -> /home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_example/lib/python3.10/site-packages/wbtros2_example
+copying /home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/build/wbtros2_example/build/lib/wbtros2_example/modules/mqtt2ros_example_node.py -> /home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_example/lib/python3.10/site-packages/wbtros2_example/modules
+byte-compiling /home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_example/lib/python3.10/site-packages/wbtros2_example/mqtt2ros_example.py to mqtt2ros_example.cpython-310.pyc
+byte-compiling /home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_example/lib/python3.10/site-packages/wbtros2_example/modules/mqtt2ros_example_node.py to mqtt2ros_example_node.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_example/lib/python3.10/site-packages/wbtros2_example-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/wbtros2_example/wbtros2_example.egg-info to /home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_example/lib/python3.10/site-packages/wbtros2_example-0.0.0-py3.10.egg-info
+running install_scripts
+Installing mqtt2ros_example script to /home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_example/lib/wbtros2_example
+Installing ros2mqtt_example script to /home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_example/lib/wbtros2_example
+writing list of installed files to '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/build/wbtros2_example/install.log'

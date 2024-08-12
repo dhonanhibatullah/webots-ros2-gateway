@@ -1,0 +1,28 @@
+[2.161s] Invoking command in '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/src/wbtros2_example': PYTHONPATH=/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/build/wbtros2_example/prefix_override:/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/wbtros2_example build --build-base /home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/build/wbtros2_example/build install --record /home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/build/wbtros2_example/install.log --single-version-externally-managed
+[2.527s] running egg_info
+[2.528s] writing ../../build/wbtros2_example/wbtros2_example.egg-info/PKG-INFO
+[2.528s] writing dependency_links to ../../build/wbtros2_example/wbtros2_example.egg-info/dependency_links.txt
+[2.529s] writing entry points to ../../build/wbtros2_example/wbtros2_example.egg-info/entry_points.txt
+[2.529s] writing requirements to ../../build/wbtros2_example/wbtros2_example.egg-info/requires.txt
+[2.529s] writing top-level names to ../../build/wbtros2_example/wbtros2_example.egg-info/top_level.txt
+[2.531s] reading manifest file '../../build/wbtros2_example/wbtros2_example.egg-info/SOURCES.txt'
+[2.533s] writing manifest file '../../build/wbtros2_example/wbtros2_example.egg-info/SOURCES.txt'
+[2.533s] running build
+[2.533s] running build_py
+[2.533s] copying wbtros2_example/mqtt2ros_example.py -> /home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/build/wbtros2_example/build/lib/wbtros2_example
+[2.533s] copying wbtros2_example/modules/mqtt2ros_example_node.py -> /home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/build/wbtros2_example/build/lib/wbtros2_example/modules
+[2.534s] running install
+[2.534s] running install_lib
+[2.535s] copying /home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/build/wbtros2_example/build/lib/wbtros2_example/mqtt2ros_example.py -> /home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_example/lib/python3.10/site-packages/wbtros2_example
+[2.536s] copying /home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/build/wbtros2_example/build/lib/wbtros2_example/modules/mqtt2ros_example_node.py -> /home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_example/lib/python3.10/site-packages/wbtros2_example/modules
+[2.537s] byte-compiling /home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_example/lib/python3.10/site-packages/wbtros2_example/mqtt2ros_example.py to mqtt2ros_example.cpython-310.pyc
+[2.538s] byte-compiling /home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_example/lib/python3.10/site-packages/wbtros2_example/modules/mqtt2ros_example_node.py to mqtt2ros_example_node.cpython-310.pyc
+[2.540s] running install_data
+[2.541s] running install_egg_info
+[2.544s] removing '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_example/lib/python3.10/site-packages/wbtros2_example-0.0.0-py3.10.egg-info' (and everything under it)
+[2.544s] Copying ../../build/wbtros2_example/wbtros2_example.egg-info to /home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_example/lib/python3.10/site-packages/wbtros2_example-0.0.0-py3.10.egg-info
+[2.546s] running install_scripts
+[2.574s] Installing mqtt2ros_example script to /home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_example/lib/wbtros2_example
+[2.574s] Installing ros2mqtt_example script to /home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_example/lib/wbtros2_example
+[2.575s] writing list of installed files to '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/build/wbtros2_example/install.log'
+[2.616s] Invoked command in '/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/src/wbtros2_example' returned '0': PYTHONPATH=/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/build/wbtros2_example/prefix_override:/home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/install/wbtros2_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/wbtros2_example build --build-base /home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/build/wbtros2_example/build install --record /home/dhonan/Workspace/webots-ros2-gateway/example/wsl_ros2/build/wbtros2_example/install.log --single-version-externally-managed

@@ -1,0 +1,3 @@
+[console_scripts]
+wbtros2_ros2handler = wbtros2_package.wbtros2_ros2handler:main
+

@@ -1,0 +1,9 @@
+running egg_info
+creating ../../build/wbtros2_example/wbtros2_example.egg-info
+writing ../../build/wbtros2_example/wbtros2_example.egg-info/PKG-INFO
+writing dependency_links to ../../build/wbtros2_example/wbtros2_example.egg-info/dependency_links.txt
+writing entry points to ../../build/wbtros2_example/wbtros2_example.egg-info/entry_points.txt
+writing requirements to ../../build/wbtros2_example/wbtros2_example.egg-info/requires.txt
+writing top-level names to ../../build/wbtros2_example/wbtros2_example.egg-info/top_level.txt
+writing manifest file '../../build/wbtros2_example/wbtros2_example.egg-info/SOURCES.txt'
+error: package directory 'wbtros2_example/modules' does not exist

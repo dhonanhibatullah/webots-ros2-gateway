@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from wbtros2_interface/msg/Wbtros2.msg
+// generated code does not contain a copyright notice
+
+
+module wbtros2_interface {
+  module msg {
+    struct Wbtros2 {
+      string topic;
+
+      string payload;
+    };
+  };
+};
